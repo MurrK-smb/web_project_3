@@ -1,0 +1,13 @@
+
+.header {
+  width: var(--main-width);
+  height: 44px;
+  display: flex;
+  margin: 34px auto 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin-top: 20px;
+  }
+}

@@ -1,5 +1,5 @@
 
-.places__link {
+.place__link {
   margin-top: 12px;
   text-decoration: underline;
   color: white;
@@ -10,6 +10,6 @@
   transition: opacity .3s ease;
 }
 
-.places__link:hover {
+.place__link:hover {
   opacity: .8;
 }

@@ -1,17 +1,18 @@
 
 .overview {
-  width: var(--main-width);
+  max-width: 984px;
   margin: 58px auto 0;
 }
 
 @media screen and (max-width: 1024px) {
   .overview {
-    margin-top: 50px;
+    margin: 50px 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .overview {
-    width: 100%;
+    margin: 50px 0 0;
   }
 }
+

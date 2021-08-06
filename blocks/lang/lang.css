@@ -1,0 +1,12 @@
+
+.lang {
+  height: fit-content;
+  margin-bottom: 4px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .lang {
+    margin-bottom: 6px;
+  }
+}

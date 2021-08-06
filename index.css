@@ -2,9 +2,11 @@
 @import url(blocks/page/page.css);
 
 @import url(blocks/header/header.css);
-@import url(blocks/header/__lang-link/header__lang-link.css);
-@import url(blocks/header/__lang-link/_U/header__lang-link_U.css);
 @import url(blocks/header/__logo/header__logo.css);
+
+@import url(blocks/lang/lang.css);
+@import url(blocks/lang/__link/lang__link.css);
+@import url(blocks/lang/__link/_u/lang__link_u.css);
 
 @import url(blocks/overview/overview.css);
 
@@ -24,14 +26,16 @@
 @import url(blocks/photo-grid/__item/photo-grid__item.css);
 
 @import url(blocks/places/places.css);
-@import url(blocks/places/__place/places__place.css);
-@import url(blocks/places/__title/places__title.css);
-@import url(blocks/places/__image/places__image.css);
-@import url(blocks/places/__website/places__website.css);
-@import url(blocks/places/__url-heading/places__url-heading.css);
-@import url(blocks/places/__link/places__link.css);
-@import url(blocks/places/__paragraph/places__paragraph.css);
-@import url(blocks/places/__cost/places__cost.css);
+
+@import url(blocks/place/place.css);
+@import url(blocks/place/__title/place__title.css);
+@import url(blocks/place/__image/place__image.css);
+@import url(blocks/place/__website/place__website.css);
+@import url(blocks/place/__url-heading/place__url-heading.css);
+@import url(blocks/place/__link/place__link.css);
+@import url(blocks/place/__info/place__info.css);
+@import url(blocks/place/__paragraph/place__paragraph.css);
+@import url(blocks/place/__cost/place__cost.css);
 
 @import url(blocks/cover/cover.css);
 @import url(blocks/cover/__overlay/cover__overlay.css);
@@ -47,26 +51,4 @@
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
-}
-
-:root {
-  --main-width: 984px;
-}
-
-@media screen and (max-width: 1024px) {
-  :root {
-    --main-width: 928px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  :root {
-    --main-width: 720px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  :root {
-    --main-width: 288px;
-  }
 }

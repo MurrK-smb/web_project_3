@@ -5,23 +5,4 @@
   padding: 0;
   color: white;
   background: #2A2C2F;
-  --main-width: 984px;
-}
-
-@media screen and (max-width: 1024px) {
-  .page {
-    --main-width: 928px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    --main-width: 720px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-    --main-width: 288px;
-  }
 }

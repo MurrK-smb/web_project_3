@@ -15,7 +15,7 @@ This is a project about traveling across the US. We've made it so all the elemen
 
 **Github**
 
-* [Link to Github repo](https://github.com/MurrK-smb/web_project_3)
+* [Link to Github page](https://murrk-smb.github.io/web_project_3/)
 
 **Images**
 

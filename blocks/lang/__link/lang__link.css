@@ -17,7 +17,7 @@
   opacity: .8;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .lang__link {
     font-size: 18px;
     line-height: 20px;
